@@ -7,7 +7,7 @@ const KEY = 'AIzaSyD_sF_WtAk4pnlJDkoJrZ_u9J1CZHeMTUA';
 
 class App extends React.Component{  
 
-    state = { videos: [] };
+    state = { videos: [], selectedVideo: null };
 
     onTermSubmit = async term => {
 
